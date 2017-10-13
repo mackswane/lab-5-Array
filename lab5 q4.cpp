@@ -31,7 +31,7 @@ void merge(int a[],int m,int b[],int n)
                  i++;
                 }
         }
-      else
+      else if(m==n)
           {
               for(j=0;j<m;j++)
                 {
@@ -43,6 +43,7 @@ void merge(int a[],int m,int b[],int n)
                  i++;
                 }
           }
+    cout<<"\nYou have entered the wrong choice";
     cout<<"\nthe final array :";
     for(j=0;j<m+n;j++)
        {
